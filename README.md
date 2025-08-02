@@ -11,18 +11,18 @@
 - Architecture & Version Control
 
 ## Welcome and Github/Unity refresher
-In these sheets, you'll find the exercises you must complete each week to earn a mark. If at any point you get stuck, don't forget to read the read the [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/). We will not be explaining what everything does. It is up to you to get used to reading the API reference yourself.
+In these sheets, you'll find the exercises you should be doing to develop the skills needed to complete the assessments. If at any point you get stuck, don't forget to read the read the [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/). We will not be explaining what everything does. It is up to you to get used to reading the API reference yourself.
 
 ### Linking your Student ID
 If you've made it this far, you've already used the Github Classroom link on iLearn. But did you link your Student ID to your Github account? If not, you'll need to make sure you do that next time, as this information is used for marking your assignments.
 
-If your student ID wasn't on the list, please send an email to cameron.edmond@mq.edu.au with your student ID so it can be added to the roster. You'll be able to link your account next prac.
+If your student ID wasn't on the list, please send an email to kayson.whitehouse@mq.edu.au with your student ID so it can be added to the roster. You'll be able to link your account next prac.
 
 ### Brushing up on Git
-We will not go into detail about cloning projects using Github, as you have covered this previously. If you need a refresher, we've provided Github's short course on [Git and Github Fundamentals](https://classroom.github.com/a/TQ86t74s).
+We will not go into detail about cloning projects using Github, as you have covered this previously. If you need a refresher, we've provided Github's short course on [Git and Github Fundamentals](https://classroom.github.com/a/vxJDhym8).
 
 ### Opening the Project
-Clone the repository onto your computer using the Git client of your choice. Remember that this unit's Unity projects are contained **inside** the repository, rather than repository itself. Open this up in Unity, making sure you are using [2022.3.37f1](https://unity.com/releases/editor/whats-new/2022.3.37).
+Clone the repository onto your computer using the Git client of your choice. Remember that this unit's Unity projects are contained **inside** the repository, rather than repository itself. Open this up in Unity, making sure you are using [6000.0.53f1](https://unity.com/releases/editor/whats-new/6000.0.53).
 
 Let's review the Unity interface. Here is an image of the default Unity layout:
 
@@ -131,10 +131,10 @@ Using your knowledge from reading the documentation, add a new line of code in t
 
 Finally, we want to change the color back. In addition to `OnMouseDown()`, there is also an `OnMouseUp()` method. Add this method to your Waypoint code, and write code to change the color back to the default. Where else should you be setting the color to default?
 
-### Marks for today
-To receive a mark, show your demonstrator:
+### Goal for today
+If you have the following, then you've completed the exercise:
 
-* Your notes on event based programming and the different variables used in this code.
-* Your console, printing both deltaTime and the target's position.
-* How you modified player movement.
-* The waypoints changing colour.
+* Some notes on event based programming and the different variables used in this code.
+* Your console can correctly print both deltaTime and the target's position.
+* You modified player movement and understand the difference each method has on the player movement.
+* The waypoints change colour.

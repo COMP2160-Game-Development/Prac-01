@@ -8,7 +8,7 @@ public class Waypoint : MonoBehaviour
     
     void Start()
     {
-        player = GameObject.FindObjectOfType<PlayerMovement>();
+        player = GameObject.FindFirstObjectByType<PlayerMovement>();
     }
 
     void OnMouseDown()
